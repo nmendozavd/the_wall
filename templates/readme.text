@@ -1,0 +1,19 @@
+CREATE LOG PAGE
+
+TEMPLATE (VIEW)
+
+DATABASE (MODEL)
+--SETUP SHCEMA/TABLES
+
+MIDDLEWARE (CONTROLLER/VIEW)
+--WRITE VALIDATION CODE
+1. First Name - letters only, at least 2 characters and that it was submitted
+
+2. Last Name - letters only, at least 2 characters and that it was submitted
+
+3. Email - Valid Email format, and that it was submitted
+
+4. Password - at least 8 characters, and that it was submitted
+
+5. Password Confirmation - matches password
+--CONNECT TO db, query
