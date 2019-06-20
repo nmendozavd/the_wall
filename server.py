@@ -7,7 +7,7 @@ app = Flask(__name__)
 bcrypt = Bcrypt(app)
 app.secret_key = "adafdafd"
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
-mysql = MySQLConnector(app, 'log_reg')
+mysql = MySQLConnector(app, 'wall')
 
 def get_comments_for_message(message_id):
         com_query = """SELECT comments.comment, comments.message_id, comments.created_at, users.first_name, users.last_name
